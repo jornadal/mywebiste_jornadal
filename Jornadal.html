@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE= edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HOME</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+
+    $(document).ready(function(){
+        $("a").on('click', function(event) {                                            
+            if (this.hash !== "") { 
+                event.preventDefault();
+                var hash = this.hash;
+                $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+                }, 800, function(){
+
+                    window.location.hash = hash;
+                });
+            }
+        });
+    });
+</script>
+</head>
+<a href="#home" id="myBtn" ><i class="fa fa-caret-square-o-up" title="Go to top"></i></a>
+<script>
+    let mybutton =document.getElementById("myBtn");
+    window.onscroll=function() {scrollFunction()};
+    function scrollFunction() {
+if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+    mybutton.style.display = "block";
+    }else{
+        mybutton.style.display = "none";
+    }
+}
+</script>
+
+<body>
+
+
+    <div class="banner" id="home">
+
+
+       <div class="navbar">
+            <div class="logo">MY PORTFOLIO</div>
+
+            <ul>
+
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#info">INFO</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#exp">EXPERIENCES</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+
+
+            </ul>
+        </div>
+        <div class="content">
+
+            <marquee style="text-shadow: 0px 0px 10px white, 0px 0px 10px blue;">WELCOME     SA WEBSITE    SANG   PAGPALANGGA</marquee>
+            <h1>WELCOME TO MY PAGE</h1>
+            <p>For more videos please subcribe to my channel.</p>
+
+
+            <div class="button">
+                
+                <button type="button"><span></span>WATCH MORE</button>
+            </div>
+
+        </div>
+    </div>
+<!--info page-->
+    <div class="bgnews" id="info">
+    
+<div class="navbar">
+            <div class="logo">MY PORTFOLIO</div>
+
+            <ul>
+
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#info">INFO</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#exp">EXPERIENCES</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+
+
+            </ul>
+        </div>
+            </ul>
+        </div>
+
+    <div class="about-section" >
+        <div class="heading">
+        <h1>INFO</h1>
+        <p >I am John Jornadal</p>       
+
+    </div>
+
+    <div class="container">
+        <section class="about">
+            <div class="about-image">
+                <img src="img/john.jpg  ">
+            </div>
+
+            <div class="about-content">
+                <h2 >INFORMATION ABOUT ME</h2>
+                <p>NAME:JOHN JORNADAL<br></br>
+                SCHOOL:PHINMA UI<br></br>
+                COURSE:BATCHELOR OF INFORMATION IN TECHNOLOGY<br></br>
+                SECTION:UI-FC1-BSIT3-1<br></br>
+                I AM WEBSITE DEVELOPER</p>
+                
+                <a href="#" class="read-more"> Read More</a>
+            </div>
+        </section>
+    </div>
+</div>
+</div>
+
+
+   <!--this code is for skills-->
+<div class="bgtestimony" id="skills">
+ <div class="navbar">
+            <div class="logo">MY PORTFOLIO</div>
+
+            <ul>
+
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#info">INFO</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#exp">EXPERIENCES</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+
+
+            </ul>
+        </div>
+
+    <div class="blog-section1">
+
+        <div class="section-content1">
+
+            <div class="title1" >
+                <h2>SKILLS</h2>
+                <p>MY SKILLS</p>
+            </div>
+            <div class="cards1">
+
+                <div class="card1">
+
+                    <div class="image-section1">
+                        <img src="img/giphy.gif">
+                    </div>
+
+                    <div class="article1">
+                        <h4>CRITICAL THINKING</h4>
+                        <p>I am a simple kid but my main skill is critical thinking to solve problems and informed decisions</br></br>
+                    </div>
+
+                    
+                </div>
+
+                    <div class="card1">
+
+                        <div class="image-section1">
+                            <img src="img/listen.gif">
+                        </div>
+
+                        <div class="article1">
+                            <h4>ACTIVE LISTENING</h4>
+                        <p>I am active listener my ability to completely focus on a speaker.</br></br>
+
+                        
+                        
+                    </div>
+
+
+                    
+                </div>
+
+                <div class="card1">
+
+                    <div class="image-section1">
+                            <img src="img/problem.gif">
+                        </div>
+
+                        
+                        <div class="article1">
+                            <h4>PROBLEM SOLVINGS</h4>
+                        <p>The skill that i acquired skills enable to determine the root of a problem and quickly find an effective solution for all partie</br></br>
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+<!--experience page-->
+<div class="exp" id="exp">
+
+<div class="navbar">
+            <div class="logo">MY PORTFOLIO</div>
+
+            <ul>
+
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#info">INFO</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#exp">EXPERIENCES</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+
+
+            </ul>
+        </div>
+
+        <div class="essay">
+            <h1>MY EXPERIENCE </h1>
+
+            <p><img src="img/ex.gif" style="border-radius: 30%;">
+                I am john i have many experince in life , i am IT student in<br></br> PHINMA University of Iloilo
+            taking a course of BSIT <br></br> I am 3rd year college i have a lot of experince programming , <br></br>creating web site, 
+        arduino project, And now for our <br></br>capstone we well create a system to help PHINMA UI.</p>
+        </div>
+
+   
+
+<!--Gallery Page-->
+<div class="bggallery" id="gallery">
+<div class="navbar">
+            <div class="logo">MY PORTFOLIO</div>
+
+            <ul>
+
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#info">INFO</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#exp">EXPERIENCES</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+
+
+            </ul>
+        </div>
+<div class="gallery" id="gallery">
+
+    <input type="radio" name="photos" id="check1" checked>
+    <input type="radio" name="photos" id="check2" >
+    <input type="radio" name="photos" id="check3" >
+    <input type="radio" name="photos" id="check4" >
+
+<div class="gallery-container">
+    <h1>OUR PHOTO GALLERY</h1>
+    <div class="top-content">
+        <h3>Photo Gallery</h3>
+        <label for="check1">All Photos</label>
+        <label for="check2">Events Photos</label>
+        <label for="check3">Bonding Photos</label>
+        <label for="check4">Outing Photos</label>
+    </div>
+
+    <div class="photo-gallery">
+
+        <div class="pic Events">
+            <img src="img/1.jpg">
+        </div>
+
+        <div class="pic Bonding">
+            <img src="img/2.jpg">
+        </div>
+
+        <div class="pic Outing">
+            <img src="img/3.jpg">
+        </div>
+
+        <div class="pic Events">
+            <img src="img/4.jpg">
+        </div>
+
+        <div class="pic Bonding">
+            <img src="img/5.jpg">
+        </div>
+
+        <div class="pic Outing">
+            <img src="img/6.jpg">
+        </div>
+
+        <div class="pic Events">
+            <img src="img/7.jpg">
+        </div>
+
+        <div class="pic Bonding">
+            <img src="img/8.jpg">
+        </div>
+
+        <div class="pic Outing">
+            <img src="img/9.jpg">
+        </div>
+        <div class="pic Events">
+            <img src="img/10.jpg">
+        </div>
+
+        <div class="pic Bonding">
+            <img src="img/11.jpg">
+        </div>
+
+        <div class="pic Outing">
+            <img src="img/mygirl.jpeg">
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+
+
+  <!--footer-->
+
+  <div class="footer-basic">
+    <footer>
+        <ul>
+        <div class="social">
+            <a href="#"><i class="fa fa-facebook-official" style="color:blue"></i></a>
+            <a href="#"><i class="fa fa-instagram" style="color:orange;"></i></a>
+            <a href="#"><i class="fa fa-twitter"style="color:skyblue;"></i></a>
+            <a href="#"><i class="fa fa-youtube-play"style="color:red;"></i></a>
+        </div>
+        <p class="copyright">Managed and Created by JORNADAL </p>
+    </ul>
+    </footer>
+  </div>
+
+
+
+
+</body>
+</html>
